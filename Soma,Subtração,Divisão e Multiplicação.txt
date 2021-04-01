@@ -1,0 +1,13 @@
+Console.WriteLine("Insira um valor");
+double A = double.Parse(Console.ReadLine());
+Console.WriteLine("Insira um valor");
+double B = double.Parse(Console.ReadLine());
+Console.WriteLine("O resultado é ");
+double SOMA = A + B;
+double SUBTRAÇÃO = A - B;
+double DIVISÃO = A / B;
+double MULTIPLICAÇÃO = A * B;
+Console.WriteLine(SOMA);
+Console.WriteLine(SUBTRAÇÃO);
+Console.WriteLine(DIVISÃO);
+Console.WriteLine(MULTIPLICAÇÃO);
