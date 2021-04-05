@@ -6,4 +6,4 @@ Console.WriteLine("Calculo de tensao eletrica");
             double V = R * I;
             Console.WriteLine("O valor da tensao eh");
             Console.WriteLine(V);
-            Console.ReadKey();
+            
