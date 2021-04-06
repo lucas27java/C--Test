@@ -1,0 +1,9 @@
+       int soma;
+       int num  = 1;
+        while (num <=30) 
+        {
+            if (num%4==0) 
+            {
+                Console.Write ("{0}, ",num);
+            }
+            num=num+1;
