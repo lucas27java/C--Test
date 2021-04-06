@@ -1,0 +1,11 @@
+      double Peso = double.Parse(Console.ReadLine());
+      double Altura = double.Parse(Console.ReadLine());
+      double IMC = (Peso/(Altura*Altura));
+        if (IMC<=16){Console.WriteLine("Subnutrido");}
+        if ((IMC>=16)&&(IMC<=16.99)){Console.WriteLine("Magreza Moderada");}
+        if ((IMC>=17)&&(IMC<=18.49)){Console.WriteLine("Magreza Leve");}
+        if ((IMC>=18.5)&&(IMC<=24.99)){Console.WriteLine("Saudavel");}
+        if ((IMC>=25)&&(IMC<=29.99)){Console.WriteLine("Sobre Peso");}
+        if ((IMC>=30)&&(IMC<=34.99)){Console.WriteLine("Obesidade");}
+        if ((IMC>=35)&&(IMC<=39.99)){Console.WriteLine("Obesidade Severa");}
+        if (IMC>=40){Console.WriteLine("Obesidade Morbida");}
