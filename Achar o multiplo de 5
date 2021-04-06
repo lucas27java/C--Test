@@ -1,0 +1,13 @@
+          int valor;
+          valor = int.Parse(Console.ReadLine());
+           if (valor%5==0)
+               
+           { Console.WriteLine("é mutiplo de 5");
+                  
+              }        
+          
+          else 
+          {
+              Console.WriteLine(" não é mutiplo de 5");
+          }
+              
