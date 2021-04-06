@@ -1,0 +1,4 @@
+         int valor = 1;
+         while(valor<=50)
+        { Console.WriteLine(valor);
+        valor++;}
