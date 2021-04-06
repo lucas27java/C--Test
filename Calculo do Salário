@@ -1,0 +1,10 @@
+         Console.WriteLine("Digite o Salário Bruto");
+         double SALARIO_BRUTO = double.Parse(Console.ReadLine());//o double.parse é para converter o valor digitado
+         double PORCENTAGEM1 = SALARIO_BRUTO * 0.10;//a variavel esta sendo declarada, eo = é a formula usada para fazer a conta
+         double SALARIO1 = SALARIO_BRUTO - PORCENTAGEM1;
+         double PORCENTAGEM2 = SALARIO1 * 0.05;
+         double SALARIO_LIQUIDO = SALARIO1 - PORCENTAGEM2;
+         Console.WriteLine("Seu Salário Bruto é");
+         Console.WriteLine(SALARIO_BRUTO);//Para o resultado ser mostrado, se escreve o WriteLine e a variavel dentro do parenteses
+         Console.WriteLine("Seu Salario Liquido é");
+         Console.WriteLine(SALARIO_LIQUIDO);
