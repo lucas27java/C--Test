@@ -1,0 +1,8 @@
+      double xerox = 0.50;
+      double xerox2 = 0.30;
+      int folhas = 1;
+      folhas = int.Parse(Console.ReadLine());
+     if(folhas>=200){Console.WriteLine(xerox2*folhas);}
+        
+        else 
+               {Console.WriteLine(xerox * folhas);}
