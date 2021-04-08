@@ -1,9 +1,0 @@
-Console.WriteLine("Calculo de tensao eletrica");
-            Console.WriteLine("Insira o valor da corrente eletrica");
-            double I = double.Parse(Console.ReadLine());
-            Console.WriteLine("Insira a Resistencia");
-            double R = double.Parse(Console.ReadLine());
-            double V = R * I;
-            Console.WriteLine("O valor da tensao eh");
-            Console.WriteLine(V);
-            
