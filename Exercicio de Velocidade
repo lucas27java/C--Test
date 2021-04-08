@@ -1,6 +1,0 @@
-Console.WriteLine("Por favor insira o valor da velocidade inicial");
-         double VI = double.Parse(Console.ReadLine());
-         double VELOCIDADE_FINAL = VI / 3.6;
-         Console.WriteLine("resultado");
-         Console.Write(VELOCIDADE_FINAL);
-         Console.Write("m/s");
