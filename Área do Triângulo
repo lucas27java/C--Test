@@ -1,5 +1,0 @@
-         Console.WriteLine("Por favor insira o valor do raio");
-         double RAIO = double.Parse(Console.ReadLine());
-         double AREA = RAIO * RAIO * 3.1416;
-         Console.WriteLine("Valor final da area");
-         Console.WriteLine(AREA);
