@@ -1,4 +1,0 @@
-      int idade = int.Parse(Console.ReadLine());
-      if (idade<=13){Console.WriteLine("Infantil");}
-      if ((idade<=14)||(idade<=17)){Console.WriteLine("Juvenil");}
-      if (idade>17){Console.WriteLine("Senior");}
