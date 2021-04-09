@@ -271,6 +271,17 @@
               Console.Write ("{0}, ",num);
             }
             num=num+1;
+ 
+ **- 19) Do While**
+       
+       int i;
+        i = 15;
+         do
+         {
+             Console.WriteLine(i*i);
+             i++;
+         }
+            while (i<=200);
 
  ![giphy (2)](https://user-images.githubusercontent.com/74679398/114052189-33e92100-9864-11eb-8908-9e20de96c907.gif)
 
