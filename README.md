@@ -272,9 +272,9 @@
             }
             num=num+1;
  
- **- 19) Do While**
-       
-       int i;
+ - **19)  Do While**
+         
+         int i;
         i = 15;
          do
          {
@@ -282,6 +282,26 @@
              i++;
          }
             while (i<=200);
+
+        
+
+ - **20) Contador**
+       
+       int i;
+        i =1;
+        do
+        {
+            if (i%2==1) 
+            { 
+                Console.WriteLine (i); 
+            }
+            i= i + 1;
+        }
+        while (i<=20);
+
+ 
+
+            
 
  ![giphy (2)](https://user-images.githubusercontent.com/74679398/114052189-33e92100-9864-11eb-8908-9e20de96c907.gif)
 
