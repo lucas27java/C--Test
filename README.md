@@ -299,7 +299,74 @@
         }
         while (i<=20);
 
+ - **21) Contador For**
+           
+          double a = 0;
+           
+          double forma_de_Pagamento = 0;
+          
+          double Cheque = 0;
+          
+          double Cartao_de_Credito = 0;
+          
+          double Dinheiro = 0;
+          
+          double receita_total_do_Bar = 0;
+          
+          for(int i=0; i<150;i++)
+        
+        {
+           forma_de_Pagamento = double.Parse(Console.ReadLine());
+            
+            if(forma_de_Pagamento == 1)
+            { a = double.Parse(Console.ReadLine());
+             Cheque = Cheque + a;}
+            
+            if (forma_de_Pagamento == 2)
+            {  a = double.Parse(Console.ReadLine());
+             Cartao_de_Credito = Cartao_de_Credito + a;}
+            
+            if (forma_de_Pagamento == 3)
+            { a = double.Parse(Console.ReadLine());
+             Dinheiro = Dinheiro + a;}
+             }
+            
+            receita_total_do_Bar = Cheque + Cartao_de_Credito + Dinheiro;
+            
+            Console.WriteLine("Valor Pago em Cheque:" + Cheque);
+            Console.WriteLine("Valor Pago em Cartãp de Crédito:" +  Cartao_de_Credito);
+            Console.WriteLine("Valor Pago em Dinheiro:" +Dinheiro);
+            Console.WriteLine("Receita Total do Bar:" +receita_total_do_Bar);     
  
+ 
+ **- Contador de Votos com For**
+
+        int voto;
+        int bolsonaro=0;
+        int lula=0;
+        int voto_em_branco=0;
+        int voto_nulo=0;
+        int total_de_votos=0;
+        for(int i=0;i<10;i++)
+        {
+            voto = int.Parse(Console.ReadLine());
+            if(voto == 1) {bolsonaro++;}
+            
+            if(voto == 2) {lula++;}
+            
+            if(voto == 3) {voto_em_branco++;}
+            
+            if(voto == 4) {voto_nulo++;}
+            }
+            if (bolsonaro>lula){Console.WriteLine("Vencedor Bolsonaro");}
+            if (bolsonaro<lula){Console.WriteLine("Brasil se fudeu");}
+            if (bolsonaro==lula){Console.WriteLine("Empate 2 Turno");}
+             total_de_votos =bolsonaro+lula+voto_em_branco+voto_nulo;
+             Console.WriteLine("Votos Bolsonaro:"+bolsonaro);
+             Console.WriteLine("Votos Lula:"+lula);
+             Console.WriteLine("Votos_em_branco:"+voto_em_branco);
+             Console.WriteLine("Votos_nulos:"+voto_nulo);
+             Console.WriteLine("Total_de_votos:"+total_de_votos);
 
             
 
