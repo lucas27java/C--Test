@@ -16,7 +16,8 @@
          
          Console.WriteLine(AREA);
  
- -  **2) Calcular a Tensão Elétrica**
+
+-  **2) Calcular a Tensão Elétrica**
             
             Console.WriteLine("Calculo de tensao eletrica");
             
@@ -34,6 +35,7 @@
             
             Console.WriteLine(V);
 
+ 
  - **3) Calculo de Polegadas**
         
         Console.WriteLine("Digite um valor");
@@ -46,7 +48,8 @@
         
         Console.WriteLine(POLEGADAS);
 
- - **4) Calculo do Salario** 
+
+- **4) Calculo do Salario** 
          
          Console.WriteLine("Digite o Salário Bruto");
          
@@ -68,6 +71,7 @@
          
          Console.WriteLine(SALARIO_LIQUIDO);
 
+ 
  -  **5) Classificação da Idade.**
       
         int idade = int.Parse(Console.ReadLine());
@@ -76,8 +80,9 @@
         
         if ((idade<=14)||(idade<=17)){Console.WriteLine("Juvenil");}
        
-       if (idade>17){Console.WriteLine("Senior");}
+        if (idade>17){Console.WriteLine("Senior");}
 
+ 
  -  **6) Achar o Mês com o Comando Switch**
         
         int mês;
@@ -143,7 +148,7 @@
         
         break;
        
-       }
+        }
      
         Console.WriteLine("Fim do programa");
 
@@ -165,6 +170,7 @@
               Console.WriteLine(" não é mutiplo de 5");
           }
 
+ 
  - **8) Comando While**
          
          int valor = 1;
@@ -175,7 +181,8 @@
         
         valor++;}
 
- - **9) Comando If e Else**
+
+- **9) Comando If e Else**
        
        int n ;
        
@@ -191,6 +198,7 @@
             
         {Console.WriteLine("Não esta entre 100 e 200");}
 
+ 
  - **10) Calculo do IMC** 
  
         double Peso = double.Parse(Console.ReadLine());
@@ -250,7 +258,8 @@
          
          Console.Write("m/s");
 
- - **13) Exercicio do Xerox**
+
+- **13) Exercicio do Xerox**
      
        double xerox = 0.50;
        
@@ -265,7 +274,8 @@
        else 
        {Console.WriteLine(xerox * folhas);}
 
- - **14) Exercicio de If e Else**
+
+- **14) Exercicio de If e Else**
         
         int a = int.Parse(Console.ReadLine());
         
@@ -292,6 +302,7 @@
        
        if((a!=b)&&(b!=c)){Console.WriteLine("O triangulo é escaleno");}    
 
+ 
  - **16) Média do Aluno com If e Else**
         
         int A = int.Parse(Console.ReadLine());
@@ -336,7 +347,8 @@
         
         else {Console.WriteLine(" Reprovado");}
 
- - **17) Soma, Subtração, Divisão,Multiplicação**
+
+- **17) Soma, Subtração, Divisão,Multiplicação**
  
         
         Console.WriteLine("Insira um valor");
@@ -365,13 +377,14 @@
         
         Console.WriteLine(MULTIPLICAÇÃO);
 
+ 
  - **18) While com If**
        
        int soma;
        
        int num  = 1;
       
-      while (num <=30) 
+       while (num <=30) 
         
         {
         if (num%4==0) 
