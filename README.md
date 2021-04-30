@@ -501,6 +501,27 @@
              Console.WriteLine("Votos_nulos:"+voto_nulo);
              
              Console.WriteLine("Total_de_votos:"+total_de_votos);
+             
+             
+  - **23) Comando de Soma de Valores com Array**
+
+          int [] valor= new int[5];
+          
+          int soma=0;
+          
+          for(int i=0;i<5;i++)
+        {
+            valor[i] = int.Parse(Console.ReadLine());
+            
+            soma = soma + valor[i];
+            
+             }
+        
+            Console.WriteLine(soma);
+        
+
+ 
+
 
             
 
