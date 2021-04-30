@@ -16,7 +16,7 @@
          
          Console.WriteLine(AREA);
  
- -  **2.Calcular a Tensão Elétrica**
+ -  **2).Calcular a Tensão Elétrica**
             
             Console.WriteLine("Calculo de tensao eletrica");
             
@@ -407,6 +407,7 @@
         }
         while (i<=20);
 
+ 
  - **21) Contador For**
            
           double a = 0;
@@ -456,7 +457,8 @@
             Console.WriteLine("Receita Total do Bar:" +receita_total_do_Bar);     
  
  
- **- Contador de Votos com For**
+
+- **22) Contador de Votos com For**
 
         int voto;
         
@@ -471,7 +473,6 @@
         int total_de_votos=0;
         
         for(int i=0;i<10;i++)
-        
         {
             voto = int.Parse(Console.ReadLine());
             
@@ -485,7 +486,7 @@
             }
             
             if (bolsonaro>lula){Console.WriteLine("Vencedor Bolsonaro");}
-           
+            
             if (bolsonaro<lula){Console.WriteLine("Brasil se fudeu");}
             
             if (bolsonaro==lula){Console.WriteLine("Empate 2 Turno");}
@@ -497,12 +498,14 @@
              Console.WriteLine("Votos Lula:"+lula);
              
              Console.WriteLine("Votos_em_branco:"+voto_em_branco);
-             
+            
              Console.WriteLine("Votos_nulos:"+voto_nulo);
              
              Console.WriteLine("Total_de_votos:"+total_de_votos);
              
-             
+  
+  
+  
   - **23) Comando de Soma de Valores com Array**
 
           int [] valor= new int[5];
