@@ -16,7 +16,7 @@
          
          Console.WriteLine(AREA);
  
- -  **2).Calcular a Tensão Elétrica**
+ -  **2) Calcular a Tensão Elétrica**
             
             Console.WriteLine("Calculo de tensao eletrica");
             
